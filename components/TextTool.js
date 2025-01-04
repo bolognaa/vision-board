@@ -17,7 +17,6 @@ function TextTool({ canvas }) {
         { value: 'Quicksand', label: 'Quicksand' }
     ];
 
-    // Initialize text tool with selected object's properties
     React.useEffect(() => {
         try {
             const handleSelectionChange = () => {
